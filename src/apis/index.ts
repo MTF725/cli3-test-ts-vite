@@ -8,7 +8,6 @@ import req from '../utils/request'
 const TestApi = () => req({ url: '/api/test', method: 'get' })
 const TestApi2 = () => req({ url: '/api/test', method: 'get' })
 
-
 export {
     TestApi,
     TestApi2

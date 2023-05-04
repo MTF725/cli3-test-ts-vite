@@ -15,7 +15,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 import testComponent from '@/components/testComponent.vue'
 import { useStore } from 'vuex'
-import { TestApi } from '../apis'
+import { TestApi } from '@/apis'
 
 export default {
   name: 'HomeView',
